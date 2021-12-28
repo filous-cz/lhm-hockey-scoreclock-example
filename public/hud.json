@@ -4,8 +4,13 @@
     "version":"1.0",
     "author":"filous",
     "legacy": false,
-    "radar": false,
+    "radar": true,
     "killfeed": false,
+	"requiredFields": {
+		"teams": {
+			"color":"color"
+		}
+	}, 
     "boltobserv":{
         "css":true,
         "maps":true

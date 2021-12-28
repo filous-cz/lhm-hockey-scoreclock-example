@@ -6,6 +6,11 @@
     "legacy": false,
     "radar": false,
     "killfeed": false,
+	"requiredFields": {
+		"teams": {
+			"color":"color"
+		}
+	}, 
     "boltobserv":{
         "css":true,
         "maps":true
