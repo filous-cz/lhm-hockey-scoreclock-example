@@ -1,0 +1,30 @@
+
+@font-face {
+    font-family: 'Resolve';
+    font-style: normal;
+	font-weight: 600;
+    src: url('./resolve/Resolve-MediumWd.otf') format('opentype');
+}
+
+
+@font-face {
+    font-family: 'Resolve';
+    font-style: italic;
+	font-weight: 600;
+    src: url('./resolve/Resolve-MediumWdIta.otf') format('opentype');
+}
+
+
+@font-face {
+    font-family: 'Resolve';
+    font-style: normal;
+	font-weight: 900;
+    src: url('./resolve/Resolve-BoldWd.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Resolve';
+    font-style: italic;
+	font-weight: 900;
+    src: url('./resolve/Resolve-BoldWdIta.otf') format('opentype');
+}

@@ -1,0 +1,94 @@
+[
+	{
+        "label": "TEAM SETTINGS",
+        "name":"teams_settings",
+        "inputs": [
+            {
+                "type": "team",
+                "name": "team_home",
+                "label": "HOME TEAM"
+            },
+			{
+                "type": "team",
+                "name": "team_away",
+                "label": "AWAY TEAM"
+            }
+        ]
+    },
+    {
+        "label": "CLOCK SETTINGS",
+        "name":"clock",
+        "inputs": [
+            {
+                "type": "action",
+                "name": "clockState",
+                "values": [
+                    {
+                        "name": "start",
+                        "label": "Start Timer"
+                    },
+                    {
+                        "name": "stop",
+                        "label": "Stop Timer"
+                    }
+                ]
+            },
+            {
+                "type": "action",
+                "name": "homeScore",
+                "values": [
+                    {
+                        "name": "add",
+                        "label": "Add Home Goal"
+                    },
+                    {
+                        "name": "subtract",
+                        "label": "Subtract Home Goal"
+                    }
+                ]
+            },
+            {
+                "type": "action",
+                "name": "awayScore",
+                "values": [
+                    {
+                        "name": "add",
+                        "label": "Add Away Goal"
+                    },
+                    {
+                        "name": "subtract",
+                        "label": "Subtract Away Goal"
+                    }
+                ]
+            },
+            {
+                "type": "action",
+                "name": "period",
+                "values": [
+                    {
+                        "name": "add",
+                        "label": "Period +"
+                    },
+                    {
+                        "name": "subtract",
+                        "label": "Period -"
+                    }
+                ]
+            },
+            {
+                "type": "action",
+                "name": "clockVisibility",
+                "values": [
+                    {
+                        "name": "show",
+                        "label": "Show Clock"
+                    },
+                    {
+                        "name": "hide",
+                        "label": "Hide Clock"
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,13 @@
+{
+    "name":"Hockey Clock for LHM",
+	"game":"all",
+    "version":"1.0",
+    "author":"filous",
+    "legacy": false,
+    "radar": false,
+    "killfeed": false,
+    "boltobserv":{
+        "css":true,
+        "maps":true
+    }
+}

@@ -1,0 +1,93 @@
+.layout{
+    color: white;
+    .scoreclock{
+        transform: scale(1.2);
+        position: absolute;
+        top:32px;
+        left: 64px;
+        height: 32px;
+        width: auto;
+        background-color: white;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        white-space: nowrap;
+        transition: all 0.5s;
+        &.hide{
+            left: -1024px;
+        }
+        .logo{
+            width: 80px;
+            background-color: grey;
+            height: 28px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            font-weight: 900;
+            margin-left: 2px;
+        }
+        .team_container{
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            height: 28px;
+            margin-left: 2px;
+            font-size: 20px;
+            .team_logo{
+                height: 24px;
+                margin-left: 2px;
+                img{
+                    height: 24px;
+                    image-rendering: -moz-crisp-edges;
+                    image-rendering: -moz-crisp-edges;
+                    image-rendering: -o-crisp-edges;
+                    image-rendering: -webkit-optimize-contrast;
+                    -ms-interpolation-mode: nearest-neighbor;
+                }
+            }
+            .name{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 28px;
+                width: 64px;
+                font-weight: 600;
+            }
+            .goals{
+                width: 28px;
+                height: 28px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: rgba(16,16,16,0.33);
+                font-weight: 900;
+            }
+        }
+        .period{
+            color: black;
+            width: 48px;
+            height: 28px;
+            margin-left: 2px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            font-weight: 600;
+            border-right: 2px solid grey;
+            padding-right: 2px;
+        }
+        .timer{
+            color: black;
+            width: 64px;
+            height: 28px;
+            margin-left: 2px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            font-weight: 600;
+            padding-right: 2px;
+        }
+    }
+}
